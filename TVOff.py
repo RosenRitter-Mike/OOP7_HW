@@ -1,28 +1,31 @@
 from TVInterface import TVInterface
+from TVSports import TVSports
 from TVOn import TVOn
 
 
 class TVOff(TVInterface):
-    def __init__(self, prev_state=None):
+    def __init__(self, prev_state: TVInterface = None):
         self.prev_state = prev_state
 
-    def turn_on(self, context):
+    def turn_on(self):
         print('TV will be turned On')
-        if self.prev_state and self.prev_state.current_channel:
-            print(f'Resuming {self.prev_state.current_channel}')
-        context.state = TVOn(current_channel=self.prev_state.current_channel if self.prev_state else None)
+        if self.prev_state:
+            print(f'Resuming {type(self.prev_state)}')
+        return self.prev_state
 
-    def turn_off(self, context):
+    def turn_off(self):
         print('TV is already Off')
 
-    def news_channel(self, context):
+    def news_channel(self):
+        from TVNews import TVNews
         print('TV is Off. Turning On and switching to News Channel')
-        context.state = TVOn(current_channel='News Channel')
+        return TVNews()
 
-    def sports_channel(self, context):
+    def sports_channel(self):
         print('TV is Off. Turning On and switching to Sports Channel')
-        context.state = TVOn(current_channel='Sports Channel')
+        return TVSports()
 
-    def movies_channel(self, context):
+    def movies_channel(self):
+        from TVMovies import TVMovies
         print('TV is Off. Turning On and switching to Movies Channel')
-        context.state = TVOn(current_channel='Movies Channel')
+        return TVMovies()

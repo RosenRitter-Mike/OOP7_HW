@@ -3,30 +3,24 @@ from TVInterface import TVInterface
 
 
 class TVOn(TVInterface):
-    def __init__(self, current_channel=None):
-        self.current_channel = current_channel
 
-    def turn_on(self, context):
+    def turn_on(self):
         print('TV is already On')
 
-    def turn_off(self, context):
+    def turn_off(self):
         from TVOff import TVOff
         print('TV will now be Off')
-        context.state = TVOff(prev_state=self)
+        return TVOff()
 
-    def news_channel(self, context):
-        self.switch_channel('News Channel')
+    def news_channel(self):
+        print('Switching to News Channel')
+        return TVNews()
 
-    def sports_channel(self, context):
-        self.switch_channel('Sports Channel')
+    def sports_channel(self):
+        from TVSports import TVSports
+        print('Switching to Sports Channel')
+        return TVSports()
 
-    def movies_channel(self, context):
-        self.switch_channel('Movies Channel')
-
-    def switch_channel(self, channel):
-        if self.current_channel == channel:
-            print(f'Already watching {channel}')
-        else:
-            print(f'Switching to {channel}')
-            self.current_channel = channel
-
+    def movies_channel(self):
+        print('Switching to Movies Channel')
+        return TVMovies()

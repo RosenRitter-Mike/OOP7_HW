@@ -1,4 +1,5 @@
 from TVContext import TVContext
+from TVNews import TVNews
 from PaymentContext import PaymentContext
 from StrategyBitcoinPayment import StrategyBitcoinPayment
 from StrategyCreditCardPayment import StrategyCreditCardPayment
@@ -7,7 +8,7 @@ from StrategyBitAppPayment import StrategyBitAppPayment
 
 
 print("_____ exercise #1 _____")
-tv = TVContext()
+tv = TVContext(TVNews())
 
 tv.turn_on()
 tv.news_channel()

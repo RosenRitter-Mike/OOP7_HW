@@ -4,13 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f46ee0c5-7cb7-4070-8717-14fdf358d0a0" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/OOP7_HW.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="f46ee0c5-7cb7-4070-8717-14fdf358d0a0" name="Changes" comment="OOP7_HW">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TVContext.py" beforeDir="false" afterPath="$PROJECT_DIR$/TVContext.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TVInterface.py" beforeDir="false" afterPath="$PROJECT_DIR$/TVInterface.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TVOff.py" beforeDir="false" afterPath="$PROJECT_DIR$/TVOff.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/TVOn.py" beforeDir="false" afterPath="$PROJECT_DIR$/TVOn.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +27,18 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;RosenRitter-Mike&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/RosenRitter-Mike/OOP7_HW&quot;,
+    &quot;accountId&quot;: &quot;5d332499-0e33-4603-a109-da55a5fe4728&quot;
+  }
+}</component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 3
 }</component>
@@ -36,16 +48,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Python.TVOff.executor": "Run",
-    "Python.TVOn.executor": "Run",
-    "Python.main.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "/home/michael/Ecom/OOP7_HW"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.TVOff.executor&quot;: &quot;Run&quot;,
+    &quot;Python.TVOn.executor&quot;: &quot;Run&quot;,
+    &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/michael/Ecom/OOP7_HW&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
@@ -67,6 +79,19 @@
       <option name="presentableId" value="Default" />
       <updated>1738403389331</updated>
     </task>
+    <task id="LOCAL-00001" summary="OOP7_HW">
+      <option name="closed" value="true" />
+      <created>1738426187301</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1738426187301</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="OOP7_HW" />
+    <option name="LAST_COMMIT_MESSAGE" value="OOP7_HW" />
   </component>
 </project>
